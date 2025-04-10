@@ -27,10 +27,6 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  server: {
-    https: true,
-    port: 443
-  }
 }
 
 if (userConfig) {
